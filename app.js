@@ -66,11 +66,11 @@ class Button {
     }
   }
 
-  // Crear un nuevo botón y agregarlo a la página
-  let myButton = new Button("my-app", "Click me!");
+  
+  let myButton = new Button("my-app", "Click");
   myButton.render();
 
-  // Crear una nueva entrada de texto y agregarla a la página
+ 
   let myInput = new TextInput("my-app", "Nombre:");
   myInput.render();
 // Construir el objeto boton
